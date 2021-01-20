@@ -7,3 +7,21 @@ const mobileMenu = () => {
     menuLinks.classList.toggle('active')
 }
 menu.addEventListener('click', mobileMenu);
+
+document.getElementById('button').addEventListener('click',
+    function(){
+        document.querySelector('.bg-modal').style.display="flex";
+    }
+);
+
+document.querySelector('.close').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display="none";
+}
+)
+
+function showdiv() 
+{
+    document.querySelector('.bg-modal').style.display="flex";
+}
+setTimeout("showdiv()", 3000);
