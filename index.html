@@ -25,10 +25,10 @@
                     <a href="#about" class="navbar__links" id="about-page">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#zodiac" class="navbar__links" id="zodiac-page">Zodiac</a>
+                    <a href="#product" class="navbar__links" id="zodiac-page">Product</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="#sign-up" class="button" id="sign-up">Sign Up</a>
+                    <a href="#footer" class="button" id="sign-up">Sign Up</a>
                 </li>
             </ul>
         </div>
@@ -44,13 +44,68 @@
                     <button class="main__btn"><span>Explore</span></button>
                 </div>
             </div>
+            <div class="container">
+                <div class="heading">
+                    <!--dropdown button-->
+                
+                </div>
+                 <!--Cards-->
+                <div class="row">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Card One</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime expedita debitis velit soluta quae tenetur mollitia explicabo veniam reiciendis et?</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Card One</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime expedita debitis velit soluta quae tenetur mollitia explicabo veniam reiciendis et?</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Card One</h1>
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime expedita debitis velit soluta quae tenetur mollitia explicabo veniam reiciendis et?</p>
+                        </div>
+                    </div>
+                </div>
         </div>
+
+        </div>
+       
+     
+        
       <!--About Section-->  
 
         <div class="main" id="about">
             <div class="main__container">
                 <div class="main__img--container">
-                    <div class="main__img--card"><i class="fas fa-search-dollar"></i></div>
+                    <div class="contact-form">
+                        <h1>Contact Us</h1>
+                        <div class="txtb">
+                            <label for="">First Name:</label>
+                            <input type="text" name="" value="" placeholder="Enter First Name">
+                        </div>
+                        <div class="txtb">
+                            <label for="">Last Name:</label>
+                            <input type="text" name="" value="" placeholder="Enter Last Name">
+                        </div>
+                        <div class="txtb">
+                            <label for="">Contact Number:</label>
+                            <input type="text" name="" value="" placeholder="Enter Your Number">
+                        </div>
+                        <button class="btn">Submit</button>
+                    </div>
+                    
                 </div>
                 <div class="main__content">
                     <h1>Why Zodiac?</h1>
@@ -61,7 +116,8 @@
             </div>
         </div>
     <br>
-    <div class="menu__zodiac" id="zodiac">
+    <!--
+            <div class="menu__zodiac" id="zodiac">
         <ul class="menu cf"><li>
             <a href="">Select Birth Date</a>
             <ul class="submenu">
@@ -78,7 +134,61 @@
           </li>
         </ul>
     </div>
+
+    -->
+<div class="row-product" id="product">
+    <div class="colunm-product">
+        <div class="card-product">
+            <img src="./images/amulet_1.png" alt="Amulate1" style="width: 150px;height: auto;padding-top: 10px;">
+            <h1>Money Amulet</h1>
+            <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sint quis magnam ex dignissimos cupiditate.</p>
+            <button class="btn-product">Buy</button>
+        </div>
+        <br>
+        <div class="card-product">
+            <img src="./images/amulet_1.png" alt="Amulate1" style="width: 150px;height: auto;padding-top: 10px;">
+            <h1>Money Amulet</h1>
+            <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sint quis magnam ex dignissimos cupiditate.</p>
+            <button class="btn-product">Buy</button>
+        </div>
+        <br>
+        <div class="card-product">
+            <img src="./images/amulet_1.png" alt="Amulate1" style="width: 150px;height: auto;padding-top: 10px;">
+            <h1>Money Amulet</h1>
+            <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sint quis magnam ex dignissimos cupiditate.</p>
+            <button class="btn-product">Buy</button>
+        </div>
+    </div>
+</div>
+
       <br>
-    <script src="app.js"></script>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="left-col">
+                <a href="#footer" id="navbar__logo"><span class="fab fa-jedi-order"> </span> Zodiac</a>
+           
+            <div class="social-media">
+                <a href="http://"><i class="fab fa-facebook-f" ></i></a>
+                <a href="http://"><i class="fab fa-instagram" ></i></a>
+                <a href="http://"><i class="fab fa-youtube" ></i></a>
+            </div>
+            <p class="right-text">Copyright © 2021 by Zodiac</p>
+        </div>
+       
+        <div class="right-col">
+            <h1>Contact Us</h1>
+            <div class="border"></div>
+            <form action="" class="newsletter-form">
+                    <input type="text" class="txtbx" placeholder="Enter FirstName">
+                    <input type="text" class="txtbx" placeholder="Enter LastName">
+                    <input type="text" class="txtbx" placeholder="Enter Contact Number">
+                    <input type="submit" class="btn-form">
+            </form>
+
+        </div>
+    </div>
+    </footer>
+
+      <script src="app.js"></script>
 </body>
 </html>
